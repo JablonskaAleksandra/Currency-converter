@@ -1,6 +1,6 @@
 # About
 
-I recently joined a frontend developer course. This simple page allows you to convert any amount in the currency of your choice in the form (euros, pounds or Swiss francs) to an amount in Polish currency.
+I recently joined a frontend developer course. This simple page allows you to convert any amount in the currency of your choice in the form (euros, pounds, dolars or Swiss francs) to an amount in Polish currency.
 
 ## 🌟 Demo 
 
