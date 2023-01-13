@@ -13,10 +13,8 @@ https://jablonskaaleksandra.github.io/currency-converter/
 ![GIF of my app](https://raw.githubusercontent.com/JablonskaAleksandra/currency-converter/main/images/converter.gif)
 
 **Main features**:
-- option to switch backgrounds on the page
-- option to hide the photo on the page
-
-
+- Possibility to convert four selected currencies into Polish currency
+- Due to the early stage of learning, it is not possible to convert currencies at the current exchange rate. The NBP exchange rates entered in the code are as of January 13, 2023 and are subject to change in the coming days from latest commit.
 
 &nbsp;
  
@@ -31,7 +29,7 @@ https://jablonskaaleksandra.github.io/currency-converter/
 ### 🔗 See also
 
 Are you interested in the course of my study ?
-Come and see my next project 👉 [💰 Currency Converter 💰](https://jablonskaaleksandra.github.io/currency-converter/).
+Come and see my first project 👉 [ Homepage ](https://jablonskaaleksandra.github.io/homepage/).
 
 &nbsp;
  
@@ -42,14 +40,34 @@ I created this project on the basis of the guidance provided in the materials fr
 
 ### 💭 Conclusions for future projects
 
-I would like to improve my JavaScript coding skills. In theory, the option to change the background and hide the page seemed simple, but practically it took me time to achieve the desired effect and proved more difficult than I thought.
+I would like to improve my JavaScript coding skills. As in the previous project, writing the code, which is intended to convert currencies, turned out to be more difficult than I expected. There are many solutions. I tried to make my code readable and as short as possible. I spent few hours analyzing it, trying to transform it according to the recommendations from the course. This gave me a better understanding of JavaScript and I hope to do the next project with more ease.
 
 ### This is the first issue:
 ```
-kod tutaj
+form.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const amount = formAmount.value;
+    const currency = formValue.value;
+    let result = formResult.value;
+
+    switch (currency) {
+        case "EUR":
+            result = amount * EUR;
+            break;
+        case "GBP":
+            result = amount * GBP;
+            break;
+        case "USD":
+            result = amount * USD;
+            break;
+        case "CHF":
+            result = amount * CHF;
+            break;
+    };
 ```
 
-I had trouble understanding the syntax of the language and could not use the right phrases to make the function work properly.
+When writing the code that will enable currency conversion, I had a problem with the proper use of the switch statement. After consulting with mentors and the community on the course, I was able to improve the code and achieve the desired result. Later in the course, when the task was to convert the code, I wanted to result to be obtained by use "return", without having to type break. Unfortunately, despite reinforcing the course materials, the code did not work as expected, so I went back to the old solution, reorganizing the code and improving according to the rest of the instructions. I am hopeful that the programming in future projects will prove more effective.
 
 
 ### ✅ Project Status
