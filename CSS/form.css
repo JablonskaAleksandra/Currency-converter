@@ -1,34 +1,44 @@
 .form__name {
-    color: rgb(0, 0, 0);
-    font-size: 40px;
-
-}
-
-.form__amount {
-
-    border-radius: 10px;
-    border-style: dotted;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
 .form__labelText {
     width: 100%;
     display: inline-block;
     text-align: center;
+}
 
-
+.form__currencySelection {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .currency {
-    background-color: hsl(322, 65%, 60%);
+    background-color:hsl(322, 65%, 70%);
     text-align: center;
-    margin-left: 250px;
-    margin-top: 30px;
-    padding: 5px;
+    margin-left: 25%;
+    margin-top: 20px;
+    padding: 10px;
     border-style: none;
+    border-radius: 10px;
+    width: 50%;
 }
 
 .currency:hover {
-    background-color: hsl(322, 65%, 70%);
+    background-color: hsl(322, 65%, 60%);
+
+}
+
+.form__amount {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-style: dotted;
+    width: 50%;
+    padding: 10px;
 }
 
 .form__fieldset {
@@ -40,37 +50,36 @@
     border-style: none;
     border-radius: 40px;
     box-shadow: 6px 7px 5px 0px #626262;
-
 }
 
 .form__paragraph {
+    font-size: 30px;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
 
 .form__button {
-
-    background-color: hsl(322, 65%, 60%);
-    display: inline-block;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: hsl(322, 65%, 70%);
     padding: 10px;
     border: none;
     border-radius: 10px;
-    width: 100%;
+    width: 50%;
+    text-align: center;
+
 }
 
 .form__button:hover {
-    background-color: hsl(322, 65%, 70%);
+    background-color: hsl(322, 65%, 60%);
 }
-
 
 .form__button:active {
     background-color: hsl(322, 65%, 50%);
 }
 
 .form__result {
-
-    color: hsl(322, 65%, 60%);
-    
+    font-size: 30px;
+    color: hsl(322, 65%, 70%);
 }
