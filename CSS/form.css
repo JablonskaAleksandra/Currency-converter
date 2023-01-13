@@ -1,0 +1,76 @@
+.form__name {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+
+}
+
+.form__amount {
+
+    border-radius: 10px;
+    border-style: dotted;
+}
+
+.form__labelText {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+
+
+}
+
+.currency {
+    background-color: hsl(322, 65%, 60%);
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 30px;
+    padding: 5px;
+    border-style: none;
+}
+
+.currency:hover {
+    background-color: hsl(322, 65%, 70%);
+}
+
+.form__fieldset {
+    background-color: #f1f1f1;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-style: none;
+    border-radius: 40px;
+    box-shadow: 6px 7px 5px 0px #626262;
+
+}
+
+.form__paragraph {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.form__button {
+
+    background-color: hsl(322, 65%, 60%);
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.form__button:hover {
+    background-color: hsl(322, 65%, 70%);
+}
+
+
+.form__button:active {
+    background-color: hsl(322, 65%, 50%);
+}
+
+.form__result {
+
+    color: hsl(322, 65%, 60%);
+    
+}

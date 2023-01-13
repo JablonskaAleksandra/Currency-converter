@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.container {
+    background-color: hsl(198, 100%, 75%);
+    background-image: url("../images/background.jpg");
+    font-family: 'Nerko One', cursive;
+    font-size: large;
+
+}
