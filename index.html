@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
@@ -15,51 +15,47 @@
     <link href="CSS/style.css" rel="stylesheet">
     <script defer src="JS/scripts.js"></script>
     <title>Kantor</title>
+    <meta property="og:images" content="images/share.png">
     <link rel="icon" href="images/icon.png">
 </head>
 
 <body class="container">
+   <div><form class="form js-form">
+        <fieldset class="form__fieldset">
+            <p><div class="form__name">💰 Kalkulator walut 💰</div></p>
+             <label>
+                <div class="form__currencySelection"> Wybierz walutę</div>
+                        <select class="currency js-formValue" name="currency">
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                            <option value="USD">USD</option>
+                            <option value="CHF">CHF</option>
+                        </select>
+                    </label>
+            <p>
+                <span class="form__labelText">
+                    <label> 
+                        <input class="form__amount js-formAmount" required type="number" step="any" min="0.1"
+                            name="ConvertFrom" placeholder="Wpisz kwotę">
+                    </label>
+                </span>
+             </p>
+             <button class="form__button">Przelicz na PLN</button>
+            <p class="form__paragraph"> Kwota, którą otrzymujemy wynosi <span class="form__result js-formResult"> N/A
+                </span> PLN</p>
 
 
-    
-        <form class="form js-form">
-            <fieldset class="form__fieldset">
-                <legend>
-                    <span class="form__name">Kalkulator walut</span>
-                </legend>
-                <p>
-                    <span class="form__labelText">
-                        <label>
-                            Kwota
-                            <input class="form__amount js-formAmount" required type="number" step="any" min="0.1"
-                                name="ConvertFrom">
-                        </label>
-                    </span>
-                    <span class="form__currencySelection">
-                        <label>
-                            <select class="currency js-formValue" name="currency">
-                                <option value="EUR">EUR</option>
-                                <option value="GBP">GBP</option>
-                                <option value="USD">USD</option>
-                                <option value="CHF">CHF</option>
-                            </select>
-                        </label>
-                    </span>
-                </p>
-                <p class="form__paragraph"> Kwota, którą otrzymasz to <span class="form__result js-formResult"> N/A
-                    </span> PLN</p>
-
-
-                <button class="form__button">Przelicz</button>
+           
 
 
 
 
 
-            </fieldset>
-        </form>
-       
-    
+        </fieldset>
+    </form>
+    </div>
+
+
 
 
 </body>
