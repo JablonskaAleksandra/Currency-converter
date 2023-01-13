@@ -2,13 +2,13 @@
 
 I recently joined a frontend developer course. This simple page allows you to convert any amount in the currency of your choice in the form (euros, pounds or Swiss francs) to an amount in Polish currency.
 
-## Demo 
+## 🌟 Demo 
 
 If you would like to visit this click on the link below:
 
 https://jablonskaaleksandra.github.io/currency-converter/
 
-## Website preview
+## 👁 Website preview
 
 ![GIF of my app](https://raw.githubusercontent.com/JablonskaAleksandra/currency-converter/main/images/converter.gif)
 
@@ -52,7 +52,7 @@ kod tutaj
 I had trouble understanding the syntax of the language and could not use the right phrases to make the function work properly.
 
 
-### Project Status
+### ✅ Project Status
 Project is: complete
 
 The project was completed because I completed all the tasks that were stipulated as part of the homework. 
