@@ -79,7 +79,8 @@ The project was completed because I completed all the tasks that were stipulated
 &nbsp;
 
 ### 🙋‍♂️ Feel free to contact me
-Write sth nice ;) Find me on:
+If you want to get in touch with me or just make friends - feel free to contact me! 
+Find me on:
 
 [Facebook](https://www.facebook.com/profile.php?id=100000886447163) or [Instagram](https://www.instagram.com/_nemeyeth_/) 
 
